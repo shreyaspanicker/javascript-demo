@@ -30,7 +30,7 @@ h1 +div{
 	font-size: 17px;
 	text-transform: uppercase;
 	font-weight: 600;
-	transition: all 0.5s ease-out;
+	
 	cursor: pointer;
 
 }
@@ -54,7 +54,7 @@ h1 +div{
 
 #message{
 	display: inline-block;
-	width: 59%;
+	width: 54%;
 }
 
 #easy{
@@ -73,4 +73,9 @@ h1 +div{
 div span:hover{
 	background: steelblue;
 	color: white;
+	transition: all 0.5s ease-out;	
+}
+
+div span{
+	padding: 0 4px;
 }

@@ -12,6 +12,8 @@ var hardbtn=document.querySelector("#hard");
 var hover=document.querySelectorAll("div span")
 colorDisplay.textContent=pickedColor;
 
+hardbtn.classList.add("selected");
+
 for(var i=0; i<squares.length; i++){
 	//Assigning colors to squares
 	squares[i].style.backgroundColor=colors[i];
