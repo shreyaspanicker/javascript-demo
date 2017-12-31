@@ -106,14 +106,5 @@ function reset(){
 				squares[i].style.backgroundColor="#232323"
 			}
 	}
-
 }
 
-var a={
-	'name':'cyril',
-	'emp-id':6
-}
-
-a.name;
-a['emp-id']
-a['name']
